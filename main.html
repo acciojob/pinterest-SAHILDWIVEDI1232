@@ -4,10 +4,38 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.container{
+			display:flex-start;
+			justify-content:left;
+			align-items:left;
+		}
+		#hero{
+			widht:200px;
+			height:200px;
+			object-fit:cover;
+		}
+.Explore{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:10px;
+	text-decoration: none; 
+	 display: inline-block;
+}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+		<img id="hero" src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+		<h1>Welcome to my Pinterest clone</h1>
+		<p>Discover new inspiration and explore ideas.</p>
+		<section class="hero">
+			<a href="Explore Now" class="Explore">Explore Now</a>
+		</section>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
